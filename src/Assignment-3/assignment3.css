@@ -5,3 +5,55 @@
 width: 100%;
 height: 100%;
 }
+
+#container1, #container2 {
+    margin: 5px;
+}
+#container1, .left-container, .right-container, #container2 {
+    background: #f2f2f2;
+    height: 350px;
+}
+
+.left-container, .right-container {
+    width: 50%;
+    float: left;
+}
+
+.top-left, #render-wiki {
+    padding: 20px;
+}
+
+
+.top-left {
+    padding: 60px;
+}
+
+#render-wiki {
+    height: 80%;
+    width: 85%;
+    border:none;
+    padding-left: 0%;
+}
+
+.top-container {
+    text-align: center;
+}
+#render-wiki1 {
+    height: 100%;
+    width: 100%;
+    border:none;
+}
+.bottom-container {
+    padding-top: 0px;
+}
+
+.top-container, .bottom-container {
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+}
